@@ -25,10 +25,11 @@ A discord vouch bot made in python, this bot is prefect if your server is using 
 
  - [GIT](https://git-scm.com/downloads)
  - [Discord.py](https://discordpy.readthedocs.io/en/latest/intro.html)
+ - [Discord Enable All Intents for the Bot](https://discord.com/developers/applications)
 
 
 ## Setup:
-Open config.json and fill in your Token, ChannelID etc.
+Open config.json and fill in your stuff
 
 ```bash
 {
