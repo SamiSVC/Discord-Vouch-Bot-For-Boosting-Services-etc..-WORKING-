@@ -1,0 +1,6 @@
+{
+    "bot_token": "YOUR_BOT_TOKEN",
+    "vouch_channel_id": YOUR_CHANNEL_ID,
+    "embed_background_color": "#ff0ebe",
+    "admin_user_id": YOUR_USER_ID
+}
