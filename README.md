@@ -17,6 +17,10 @@
 
 
 ![vouchcmd](https://github.com/user-attachments/assets/6e4677b0-9d9b-4395-8551-5e51279dc4c1)
+![vouchembed](https://github.com/user-attachments/assets/5c52b347-3ebd-4a86-bf37-f3d878258947)
+![vouches](https://github.com/user-attachments/assets/ed12be61-54f2-4268-b426-a6a72556533d)
+![htmlsafe](https://github.com/user-attachments/assets/fff27dc2-0741-4611-bf1d-259b8e2c44d0)
+
 
 
   
