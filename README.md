@@ -1,26 +1,62 @@
-**Discord Vouch Bot (Perfect for Discord Server which sells Stuff!)**
+
+# Discord Vouch Bot (Perfect for Services)
+
+A discord vouch bot made in python, this bot is prefect if your server is using vouches for example for Services. This bot safes all your vouches in HTML, SQL, JSON.
 
 
-- This Discord Bot is doing all vouches for u basically!
-- EASY SETUP!
+## Commands
 
-
-
-- **Added:**
-- HTML/Database/Json | All of your Vouches is going to get safed in .sql, html + json... Watch the Images below!
-- All your vouches is going to get safed, watch the images below.
-
-
-- **/vouch** | Vouches for the Server, Format: __vouch rating text__
-- **/cleardatabase** | Delete whole Database, starting from 0 Vouches (ADMIN ONLY)
-- **/vouches** | See all Vouches on the Server, including Discord Buttons.
-
-
-![vouchcmd](https://github.com/user-attachments/assets/6e4677b0-9d9b-4395-8551-5e51279dc4c1)
-![vouchembed](https://github.com/user-attachments/assets/5c52b347-3ebd-4a86-bf37-f3d878258947)
-![vouches](https://github.com/user-attachments/assets/ed12be61-54f2-4268-b426-a6a72556533d)
-![htmlsafe](https://github.com/user-attachments/assets/fff27dc2-0741-4611-bf1d-259b8e2c44d0)
+- **/vouch**| *Sents an Embed into the Vouch Channel ./config.json*
+- **/vouches** | *Show all Vouches in the Server*
+- **/cleardatabase** |*Clear all Vouches in the Server (ADMIN ONLY*)
 
 
 
-  
+## Bot Commands + HTML Preview
+
+![App Screenshot](https://cdn.discordapp.com/attachments/1287864112851849310/1293168340407422997/image.png?ex=6706645e&is=670512de&hm=444ba2a03e2e7b222c181cc743331dbf4ef8478ee792cb161584b5a0281dd090&)
+![App Screenshot](https://cdn.discordapp.com/attachments/1287864112851849310/1293168805794807828/image.png?ex=670664cd&is=6705134d&hm=04db5c3f1d50e87b93057be8b789dd73f828beb465d51c227a4aebb5df17bb4c&)
+![App Screenshot](https://cdn.discordapp.com/attachments/1287864112851849310/1293168980802146384/image.png?ex=670664f6&is=67051376&hm=da7fc7b869d4a4f8d722eb8d276883879d199623ceb332f57acbbcd58567ff7f&)
+
+
+
+
+## You need to have this installed:
+
+ - [GIT](https://git-scm.com/downloads)
+ - [Discord.py](https://discordpy.readthedocs.io/en/latest/intro.html)
+
+
+## Setup:
+Open config.json and fill in your Token, ChannelID etc.
+
+```bash
+{
+    "bot_token": "YOUR_BOT_TOKEN",
+    "vouch_channel_id": YOUR_CHANNEL_ID,
+    "embed_background_color": "#ff0ebe",
+    "admin_user_id": YOUR_USER_ID
+}
+```
+
+## Install Discord.py
+
+
+```bash
+pip install discord.py
+```
+
+## Run Project
+After u filled the config.json and installed discord.py run your Bot.
+
+```bash
+python main.py
+```
+
+
+**Well done, everything should work now!**
+
+## Support
+
+Discord: SamiVSC
+
