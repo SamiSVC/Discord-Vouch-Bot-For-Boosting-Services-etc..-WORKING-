@@ -40,11 +40,12 @@ Open config.json and fill in your stuff
 }
 ```
 
-## Install Discord.py
+## Install Discord.py + Colorama
 
 
 ```bash
 pip install discord.py
+pip install colorama
 ```
 
 ## Run Project
